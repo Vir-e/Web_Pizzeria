@@ -1,0 +1,71 @@
+body{
+
+    background-color: #143D59;
+    background-image:url("img/fondo.jpg") ;
+    background-size: cover;
+}
+
+header{
+
+   
+    background-color:#F4B41A ;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin: 20px 50px 20px 50px;
+    
+    
+    
+
+}
+
+#titulo{
+
+    margin: 20px 50px 20px 50px;
+    font-size: 100px;
+    color: #143D59;
+    text-align: left;
+    
+
+
+}
+
+ul{
+
+    list-style-type: none;
+   text-align: right;
+   
+    
+}
+
+ul li{
+
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0;
+    font-size: xx-large;
+   
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #F4B41A;
+    font-style: bold;
+}
+
+
+
+
+.intro{
+
+    float: right;
+    font-size: x-large;
+    color: rgb(219, 222, 203);
+    
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzeria Palermo</title>
+        <meta charset="utf-8" />
+        <meta name="Virginia" content="Ejemplo sitio web" />
+        <link rel="shortcut icon" href="../img/icono.png">
+        <link rel="stylesheet" href="../estilos/styleContacto.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>Contácta con nosotros</h1>
+        
+            <form>
+                <fieldset id="f">
+                    <table>
+                        <tr>
+                            <td><label class="txtForm" for="nombre">Nombre: </label></td>
+                            <td><input class="entForm" id="nombre" name="nombre" type="text" required/></td>
+                        </tr>
+                        <tr>        
+                            <td><label class="txtForm" for="apellidos">Apellidos: </label></td>
+                            <td><input class="entForm" id="apellidos" name="apellidos" type="text"/></td>
+                        </tr>
+                        <tr>    
+                            <td><label class="txtForm" for="tlf">Telefono: </label>
+                            <td><input class="entForm" id="tlf" name="tlf" type="tel"/></td>
+                        </tr>
+                        <tr>
+                            <td><label class="txtForm" for="email">Email: </label></td>
+                            <td><input class="entForm" id="email" name="email" type="email" placeholder="Ejemplo: micorreo@gmail.com" required/></td>
+                        </tr>
+                    </table>
+                        <div class="dcha">
+                            <label class="txtForm" id="sugerencias">Déjanos tus sugerencias...</label>
+                            <br>
+                            <textarea cols="60" rows="15" id="txtArea" ></textarea>
+                        </div>
+                    
+                </fieldset>
+            </form>
+            <button class="btn" id="btnSubmit" type="submit">Enviar formulario</button>
+        
+    </body>
+</html>

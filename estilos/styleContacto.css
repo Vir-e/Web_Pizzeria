@@ -1,0 +1,86 @@
+body{
+   
+    overflow-x: hidden;
+    background-image: url(../img/pizzasetas.jpg);
+}
+
+h1{
+    background-color: #143D59;
+    color: #F4B41A;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+
+form{
+   
+    height: 100px;
+    padding: 0%;
+}
+
+#f{
+    background-color: #143D59;
+    margin-top: 60px;
+    height: 400px;
+    padding: 0%;
+}
+
+#btnSubmit{
+    
+    
+    background-color: #F4B41A;
+    color: #143D59;
+    position: relative;
+    bottom: -340px;
+    left: 700px;
+    height: 80px;
+    width: 170px;
+    font-style: bold;
+    font-size: x-large;
+    
+
+}
+
+.dcha{
+    
+    position: relative;
+    bottom: 295px;
+    left: 990px;
+    
+    
+    
+   
+    
+}
+
+
+
+table{
+
+    margin-left: -55px;
+    margin-top: 45px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 25px;
+}
+
+tr{
+    
+    position: relative;
+    left: 100px;
+}
+
+.txtForm{
+
+    color:#F4B41A;
+    font-size: xx-large;
+    width: 25%;
+}
+
+.entForm{
+
+    height: 30px;
+    width: 370px;
+}
+

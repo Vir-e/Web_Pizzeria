@@ -1,0 +1,40 @@
+body{
+
+   
+    background-image: url("../img/pizza.jpg");
+
+}
+
+
+.txtUbic{
+    
+
+   color: #143D59;
+    text-align: center;
+    display: block;
+    
+
+}
+
+h1{
+
+    color: #F4B41A;
+    background-color: #143D59;
+    font-size: 60px;
+    display: block;
+    text-align: center;
+}
+
+p label{
+    font-weight: bold;
+    font-size: 40px;
+   
+    
+}
+
+#horario{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+
+}
