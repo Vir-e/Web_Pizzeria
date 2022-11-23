@@ -8,21 +8,22 @@
         <link rel="stylesheet" href="style.css" type="text/css"/>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  <!--Para adaptar a dispositivos moviles-->
     </head>
-    <body>
+    <body onload="arranque">
         <header>
             <div class="wrapper">
                 <img id="logo"src="img/icono.png" alt="Logo Pizzeria Palermo"/>
-                <h1 id="titulo">Pizzeria Palermo</h1> 
+                <h1 id="titulo">Pizzeria<br>Palermo</h1> 
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>              
+                        <li><a href="paginas/ubicacion.html">Ubicaciones</a></li>
+                        <li><a href="paginas/carta.html">Nuestras pizzas</a></li>
+                        <li><a href="paginas/contacto.html">Contacto</a></li>
+                      </ul>
+                </nav>
             </div>        
         </header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>              
-                <li><a href="#">Ubicaciones</a></li>
-                <li><a href="#">Nuestras pizzas</a></li>
-                <li><a href="#">Contacto</a></li>
-              </ul>
-        </nav>
+        
         <div class="fondo">
         <main>
             <section class="intro">

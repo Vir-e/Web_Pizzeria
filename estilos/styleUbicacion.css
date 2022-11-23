@@ -6,23 +6,65 @@ body{
 }
 
 
-.txtUbic{
-    
 
-   color: #143D59;
-    text-align: center;
-    display: block;
+header{
+
+   
+    background-color:#F4B41A ;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px 20px 20px 50px;
+    
+    
     
 
 }
 
-h1{
+#titulo{
 
-    color: #F4B41A;
-    background-color: #143D59;
-    font-size: 60px;
-    display: block;
+    margin: 20px 50px 20px 50px;
+    font-size: 40px;
+
+    color: #143D59;
+    text-align: left;
+    
+
+
+}
+
+
+ul{
+
+    list-style-type: none;
+   text-align: right;
+   margin-top: -50px;
+    
+}
+
+ul li{
+
+    display: inline;
     text-align: center;
+    margin: 0 20px 0 0;
+    font-size: xx-large;
+   
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #143D59;
+    font-style: bold;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    color: #143D59;
 }
 
 p label{
@@ -32,9 +74,20 @@ p label{
     
 }
 
+.txtUbic{
+    
+    display: block;
+    color: #143D59;
+     text-align: center;
+    
+     
+ 
+ }
 #horario{
+    margin-top: 20px;
     list-style: none;
     font-size: 30px;
     font-weight: bold;
 
 }
+
